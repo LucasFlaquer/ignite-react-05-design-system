@@ -1,0 +1,12 @@
+{
+  "name": "@ignite-ui/eslint-config",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@rocketseat/eslint-config": "^3.0.12",
+    "eslint": "^9.19.0",
+    "typescript": "^5.7.3"
+  }
+}
