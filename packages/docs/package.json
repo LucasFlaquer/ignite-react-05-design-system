@@ -4,11 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "license": "MIT",
-  "scripts": {    
+  "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "storybook build"
   },
   "dependencies": {
+    "@ignite-ui/react": "*",
+    "@ignite-ui/tokens": "*",
+    "@ignite-ui/eslint-config": "*",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -22,6 +25,7 @@
     "@storybook/react": "^8.5.2",
     "@storybook/react-vite": "^8.5.2",
     "@storybook/test": "^8.5.2",
+    "@types/node": "^22.13.0",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
