@@ -11,7 +11,10 @@ function getAbsolutePath(value: string): any {
   return dirname(require.resolve(join(value, 'package.json')))
 }
 const config: StorybookConfig = {
-  stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
+  stories: [
+    '../src/pages/**/*.mdx',
+    '../src/stories/*.stories.@(js|ts|tsx)',
+  ],
   previewHead: (head) => `
     ${head}
     <link rel="preconnect" href="https://fonts.googleapis.com" ?/>
@@ -27,6 +30,9 @@ const config: StorybookConfig = {
   framework: {
     name: getAbsolutePath('@storybook/react-vite'),
     options: {},
+  },
+  core: {
+    builder: '@storybook/builder-vite', // 👈 The builder enabled here.
   },
 }
 export default config
