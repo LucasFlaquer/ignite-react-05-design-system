@@ -8,6 +8,13 @@ const meta = {
     src: 'https://github.com/lucasflaquer.png',
     alt: 'Lucas Flaquer',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export default meta

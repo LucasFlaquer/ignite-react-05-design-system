@@ -5,8 +5,31 @@ const meta = {
   title: 'Typography/Text',
   component: Text,
   args: {
+    size: 'md',
     // eslint-disable-next-line @stylistic/max-len
     children: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem dolores tempora maxime? Voluptas totam distinctio corporis fugiat cumque eum minima.',
+  },
+  argTypes: {
+    size: {
+      options: [
+        'xxs',
+        'xs',
+        'sm',
+        'md',
+        'lg',
+        'xl',
+        '2xl',
+        '4xl',
+        '5xl',
+        '6xl',
+        '7xl',
+        '8xl',
+        '9xl',
+      ],
+      control: {
+        type: 'inline-radio',
+      },
+    },
   },
 } as Meta<TextProps>
 
