@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "build": "storybook build"
+    "build": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
     "@ignite-ui/eslint-config": "*",
@@ -14,6 +15,7 @@
     "@ignite-ui/tokens": "*",
     "@ignite-ui/ts-config": "*",
     "@phosphor-icons/react": "^2.1.7",
+    "@storybook/storybook-deployer": "^2.8.16",
     "polished": "^4.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
