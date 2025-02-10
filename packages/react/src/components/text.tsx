@@ -31,3 +31,5 @@ export interface TextProps extends ComponentProps<typeof Text> {
   as?: ElementType,
   children?: ReactNode
 }
+
+Text.displayName = 'Text'
