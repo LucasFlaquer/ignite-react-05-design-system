@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@flaquer-ignite-ui/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,10 +10,10 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@flaquer-ignite-ui/eslint-config": "*",
+    "@flaquer-ignite-ui/react": "*",
+    "@flaquer-ignite-ui/tokens": "*",
+    "@flaquer-ignite-ui/ts-config": "*",
     "@phosphor-icons/react": "^2.1.7",
     "@storybook/storybook-deployer": "^2.8.16",
     "polished": "^4.3.1",

@@ -1,7 +1,8 @@
 {
-  "name": "@ignite-ui/eslint-config",
+  "name": "@flaquer-ignite-ui/eslint-config",
   "main": "index.js",
   "type": "module",
+  "version": "1.0.0",
   "license": "MIT",
   "private": true,
   "dependencies": {

@@ -1,6 +1,6 @@
 {
   "files": [],
-  "extends": "@ignite-ui/ts-config/react.json",
+  "extends": "@flaquer-ignite-ui/ts-config/react.json",
   "compilerOptions": {
     "moduleResolution": "bundler",
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
