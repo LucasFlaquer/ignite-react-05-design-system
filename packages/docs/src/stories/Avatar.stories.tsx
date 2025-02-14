@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Avatar, AvatarProps } from '@ignite-ui/react'
+import { Avatar, AvatarProps } from '@flaquer-ignite-ui/react'
 
 const meta = {
   title: 'Data display/Avatar',
