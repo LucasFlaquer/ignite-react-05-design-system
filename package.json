@@ -4,11 +4,15 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@changesets/cli": "^2.27.12",
     "turbo": "^2.4.0"
   },
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=@flaquer-ignite-ui/docs && changeset publish"
   },
   "packageManager": "npm@10.9.0"
 }
