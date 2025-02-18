@@ -1,0 +1,3 @@
+import{j as s}from"./index-PQnn582E.js";import{C as m,B as c,T as i}from"./index-C5UpykWS.js";import"./index-D6_zSI5B.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-B8lkm2-_.js";const u={title:"Form/Checkbox",component:m,args:{},decorators:[t=>s.jsxs(c,{as:"label",css:{display:"flex",flexDirection:"row",gap:2},children:[t(),s.jsx(i,{size:"sm",children:"Accept therms of use"})]})]},r={args:{}};var e,o,a;r.parameters={...r.parameters,docs:{...(e=r.parameters)==null?void 0:e.docs,source:{originalSource:`{
+  args: {}
+}`,...(a=(o=r.parameters)==null?void 0:o.docs)==null?void 0:a.source}}};const f=["Primary"];export{r as Primary,f as __namedExportsOrder,u as default};

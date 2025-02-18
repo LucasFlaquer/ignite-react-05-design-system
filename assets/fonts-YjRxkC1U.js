@@ -1,0 +1,4 @@
+import{j as t}from"./index-PQnn582E.js";import{useMDXComponents as r}from"./index-1VGINWaJ.js";import{M as e}from"./index-BLWGUH-E.js";import{b as i}from"./index-CrFT8R9j.js";import{T as m}from"./tokens-grid-BQnXuOcZ.js";import"./index-D6_zSI5B.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-B8lkm2-_.js";import"./iframe-eYLG9xw6.js";import"./index-yoiVaRzt.js";import"./index-CXQShRbs.js";import"./index-DrFu-skq.js";function s(o){const n={h1:"h1",p:"p",...r(),...o.components};return t.jsxs(t.Fragment,{children:[t.jsx(e,{title:"Tokens/fonts"}),`
+`,t.jsx(n.h1,{id:"fonts",children:"Fonts"}),`
+`,t.jsx(n.p,{children:"Essas são as fontes no Ignite UI."}),`
+`,t.jsx(m,{tokens:i})]})}function C(o={}){const{wrapper:n}={...r(),...o.components};return n?t.jsx(n,{...o,children:t.jsx(s,{...o})}):s(o)}export{C as default};
